@@ -5,8 +5,8 @@
 #include <endian.h>
 
 typedef struct packet_s{
-  unsigned int version:4;
   unsigned int IHL:4;
+  unsigned int version:4;
   unsigned int TOS:8;
   unsigned int total_length:16;
   unsigned int id:16;
